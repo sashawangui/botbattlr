@@ -1,0 +1,79 @@
+body{
+  background: rgb(21,70,24);
+  background: linear-gradient( #FF0099, #aa4b6b,#493240  100%);
+  color: aliceblue;
+}
+.container{
+  text-align: center;
+}
+
+.bots-collection, .your-bot-army{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bot{
+  border-radius: 10px;
+  border-style: solid;
+  border-color: beige;
+  margin: 10px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.enlist-btn{
+  font-size: 19px;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(202, 196, 186) ;
+  font-size: 20px;
+  margin: 20px;
+  margin-right: 70px;
+}
+.link:hover, .link:active{
+  font-size: 23px;
+  color: azure;
+  border-bottom-style: solid;
+  border-bottom-color: azure;
+}
+
+.btn{
+  margin: 20px;
+  font-size: 20px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.btn-danger{
+  background-color: red;
+  font-size: 18px;
+}
+.btn-danger:hover{
+  font-size: 20px;
+}
+.btn-brown{
+  background-color: brown;
+}
+select, option{
+  font-size:18px;
+  width: 20%;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 150px;
+}
