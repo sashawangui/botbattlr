@@ -1,7 +1,5 @@
 body{
-  background: rgb(21,70,24);
-  background: linear-gradient( #FF0099, #aa4b6b,#493240  100%);
-  color: aliceblue;
+  background-color: #9198e5;
 }
 .container{
   text-align: center;
@@ -25,7 +23,7 @@ body{
 }
 .enlist-btn{
   font-size: 19px;
-  background-color: blue;
+  background-color: #093028 ;
   color: aliceblue;
   border-radius: 10px;
 }
@@ -60,7 +58,7 @@ body{
   font-size: 20px;
 }
 .btn-brown{
-  background-color: brown;
+  background-color: #e66465,;
 }
 select, option{
   font-size:18px;
