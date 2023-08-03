@@ -29,10 +29,6 @@ function App() {
       
       <Routes> 
 
-        <Route exact path='/' element={
-          <BotCollection bots={bots} setYourBots={setYourBots} yourBots={yourBots} filteredBots={filteredBots} setFilteredBots={setFilteredBots}/>
-        }/>
-
         <Route exact path='/bots-collection' element={
           <BotCollection bots={bots} setYourBots={setYourBots} yourBots={yourBots} filteredBots={filteredBots} setFilteredBots={setFilteredBots}/>
         } />   
